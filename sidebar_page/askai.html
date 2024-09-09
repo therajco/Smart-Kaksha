@@ -1,0 +1,85 @@
+<html></html>
+ <head>
+  <title>
+   Ask AI
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: #E8E8E9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            background-color: #202123;
+            color: #A0A0A0;
+            font-size: 12px;
+        }
+        .footer a {
+            color: #A0A0A0;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .search-bar {
+            position: absolute;
+            bottom: 50px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .search-bar input {
+            width: 70%;
+            padding: 10px;
+            border-radius: 20px 0 0 20px;
+            border: none;
+            background-color: #3E3F42;
+            color: #E8E8E9;
+            font-size: 16px;
+        }
+        .search-bar input::placeholder {
+            color: #A0A0A0;
+        }
+        .search-bar button {
+            padding: 10px;
+            border-radius: 0 20px 20px 0;
+            border: none;
+            background-color: #3E3F42;
+            color: #E8E8E9;
+            cursor: pointer;
+        }
+        .search-bar button:hover {
+            background-color: #5A5B5E;
+        }
+    }
+  </style>
+ </head>
+ <body>
+  </div>
+  <div class="search-bar">
+   <input id="search-input" placeholder="Ask AI..." type="text"/>
+   <button onclick="search()">
+    <i class="fas fa-search"></i>
+   </button>
+  </div>
+  </div>
+  <script>
+   function search() {
+            const query = document.getElementById('search-input').value;
+            alert('You searched for: ' + query);
+        }
+  </script>
+ </body>
+</html>

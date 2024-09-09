@@ -1,0 +1,105 @@
+body {
+         margin: 0;
+         font-family: Arial, sans-serif;
+         background-color: #f0f8f8;
+     }
+     .header {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 10px 20px;
+         background-color:  #ffffff;
+         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     }
+     .header .logo {
+         display: flex;
+         align-items: center;
+     }
+     .header .logo img {
+         height: 70px;
+     }
+     .header .login-link {
+         display: flex;
+         align-items: center;
+     }
+     .header .login-link a {
+         text-decoration: none;
+         color: #000;
+         margin-right: 10px;
+     }
+     .header .login-link button {
+         background-color: #f0a500;
+         border: none;
+         color: white;
+         padding: 10px 20px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 16px;
+         border-radius: 5px;
+         cursor: pointer;
+     }
+     .login-container {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: calc(100vh - 60px);
+         background: linear-gradient(to bottom right, #f0f8f8 50%, #f0a500 50%);
+     }
+     .login-box {
+         background-color: rgb(250, 250, 250);
+         padding: 40px;
+         border-radius: 10px;
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+         text-align: center;
+         width: 300px;
+     }
+     .login-box img {
+         height: 80px;
+         margin-bottom: 20px;
+     }
+     .login-box h2 {
+         margin-bottom: 20px;
+         font-size: 24px;
+         color: #333;
+     }
+     .login-box .input-group {
+         margin-bottom: 20px;
+         position: relative;
+     }
+     .login-box .input-group input {
+         width: 80%;
+         padding: 10px;
+         padding-left: 40px;
+         border: 1px solid #ccc;
+         border-radius: 5px;
+     }
+     .login-box .input-group .fa {
+         position: absolute;
+         left: 10px;
+         top: 50%;
+         transform: translateY(-50%);
+         color: #aaa;
+     }
+     .login-box button {
+         background-color: #f0a500;
+         border: none;
+         color: rgb(255, 255, 255);
+         padding: 10px 20px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 16px;
+         border-radius: 5px;
+         cursor: pointer;
+         width: 100%;
+     }
+     .login-box .forgot-password {
+         margin-top: 20px;
+         display: block;
+         color: #b7a279;
+         text-decoration: none;
+     }
+     button {
+         color: rgb(249, 232, 232);
+     }
